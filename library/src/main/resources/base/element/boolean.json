@@ -1,0 +1,12 @@
+{
+  "boolean": [
+    {
+      "name": "password_edit_text_password_visible",
+      "value": false
+    },
+    {
+      "name": "password_edit_text_show_as_text",
+      "value": false
+    }
+  ]
+}

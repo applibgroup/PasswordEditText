@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "library"
+    },
+    {
+      "name": "hide_text",
+      "value": "HIDE"
+    },
+    {
+      "name": "show_text",
+      "value": "SHOW"
+    }
+  ]
+}

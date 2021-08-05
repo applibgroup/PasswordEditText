@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    xmlns:float="http://schemas.huawei.com/hap/res-auto"
+    ohos:id="$+id:parent"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <com.wrapp.floatlabelededittext.FloatLabeledEditText
+        ohos:id="$+id:labelOne"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_margin="15vp"
+        ohos:right_margin="15vp"
+        float:fletPaddingBottom="30vp"
+        ohos:top_margin="30vp">
+
+        <in.anshul.library.PasswordEditText
+            ohos:id="$+id:password_edit_text"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:hide_drawable="$media:in_anshul_hide_password"
+            ohos:hint="Password"
+            ohos:horizontal_center="true"
+            ohos:padding="10vp"
+            ohos:password_visible="false"
+            ohos:show_drawable="$media:in_anshul_show_password"
+            ohos:text_size="18fp"/>
+    </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+    <com.wrapp.floatlabelededittext.FloatLabeledEditText
+        ohos:id="$+id:labelTwo"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:below="$id:labelOne"
+        ohos:left_margin="15vp"
+        ohos:right_margin="15vp"
+        float:fletPaddingBottom="30vp"
+        ohos:top_margin="30vp">
+
+        <in.anshul.library.PasswordEditText
+            ohos:id="$+id:password_edit_text2"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:hide_text="$string:hide_text"
+            ohos:hint="Password"
+            ohos:horizontal_center="true"
+            ohos:padding="10vp"
+            ohos:password_visible="false"
+            ohos:show_as_text="true"
+            ohos:show_text="$string:show_text"
+            ohos:text_size="18fp"/>
+    </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+
+</DependentLayout>
