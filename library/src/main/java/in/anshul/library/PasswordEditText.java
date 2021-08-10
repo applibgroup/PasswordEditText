@@ -161,14 +161,11 @@ public class PasswordEditText extends TextField implements Component.TouchEventL
         final PixelMap bitmap = PixelMap.create(options);
         Texture texture = new Texture(bitmap);
         final Canvas canvas = new Canvas(texture);
-        Paint paint = new Paint() {
-            {
-                setAntiAlias(true);
-                setColor(Color.BLACK);
-                setFakeBoldText(true);
-                setTextSize(40);
-            }
-        };
+        Paint paint = new Paint();
+        paint.setAntiAlias(true);
+        paint.setColor(Color.BLACK);
+        paint.setFakeBoldText(true);
+        paint.setTextSize(40);
 
         canvas.drawText(paint, text, 0, 45);
         return texture.getPixelMap();
